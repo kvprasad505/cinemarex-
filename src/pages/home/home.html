@@ -1,0 +1,45 @@
+<ion-header>
+    <ion-searchbar (ionInput)="getItems($event)"></ion-searchbar>
+
+
+</ion-header>
+
+
+
+
+<ion-content padding >
+   <div class="carousal-inner" > <ion-slides pager  autoplay="3000" loop="true" speed="2000">
+   <ion-slide><img class="img-responsive img img-thumbnail" src ="../assets/imgs/s1.png " ></ion-slide>
+      <ion-slide><img class="img-responsive  img img-thumbnail" src ="../assets/imgs/s2.png"></ion-slide>
+      <ion-slide ><img class="img-responsive img  img-thumbnail " src ="../assets/imgs/s3.png"> </ion-slide>
+      </ion-slides>
+      </div>
+
+<h4>Recomanded Movies </h4>
+<ion-scroll scrollX="true" style="white-space:nowrap; height:35%" >
+    <img src ="/assets/imgs/c1.png" class="img" (click)="aa()">
+    <img src ="/assets/imgs/c2.png" class="img" >
+    <img src ="/assets/imgs/c3.png" class="img">
+    <img src ="/assets/imgs/c4.png" class="img">
+    <img src ="/assets/imgs/c1.png" class="img">
+    <img src ="/assets/imgs/c2.png" class="img">
+    <img src ="/assets/imgs/c3.png" class="img">
+    <img src ="/assets/imgs/c4.png" class="img">
+    <img src ="/assets/imgs/c2.png" class="img">
+</ion-scroll>
+
+<h4>More Movies </h4>
+<ion-scroll scrollX="true" style="white-space:nowrap; height:35%" >
+  <img src ="/assets/imgs/c1.png" class="img-responsive img-thumbnail img">
+  <img src ="/assets/imgs/c2.png" class="img-responsive img-thumbnail img" >
+  <img src ="/assets/imgs/c3.png" class="img-responsive img-thumbnail img">
+  <img src ="/assets/imgs/c4.png" class="img-responsive img-thumbnail img">
+  <img src ="/assets/imgs/c1.png" class="img-responsive img-thumbnail img">
+  <img src ="/assets/imgs/c2.png" class="img-responsive img-thumbnail img">
+  <img src ="/assets/imgs/c3.png" class="img-responsive img-thumbnail img">
+  <img src ="/assets/imgs/c4.png" class="img-responsive img-thumbnail img">
+  <img src ="/assets/imgs/c2.png" class="img-responsive img-thumbnail img">
+</ion-scroll>
+
+
+</ion-content>

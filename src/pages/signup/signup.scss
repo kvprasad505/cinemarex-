@@ -1,0 +1,20 @@
+page-signup {
+  .bd{
+    background-image: url('../assets/imgs/loginbackground.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+.selects{
+    padding-left: 15px;
+}
+.error-message{
+    padding-left: 15px;
+    color: lightcoral;
+    font-size: smaller;
+}
+.card{
+  height:50px;
+}
+
+}

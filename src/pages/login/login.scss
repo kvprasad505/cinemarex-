@@ -1,0 +1,52 @@
+page-login {
+  .background{
+      background-image: url('../assets/imgs/loginbackground.jpg');
+      background-repeat:no-repeat;
+      background-size:cover;
+  }
+
+  .div1{
+      display: block;
+      margin: auto;
+      border-radius: 50%;
+      height: 100px;
+      width: 100px;
+  }
+
+  .div2{
+      color: white;
+      text-align: center;
+      padding-top: 10px;
+  }
+
+  .div2 h3{
+      font-style: oblique;
+      margin: 0;
+      padding: 0;
+      font-weight: bolder;
+  }
+
+  .div2 p{
+      font-style: italic;
+      margin: 0;
+      padding: 0;
+      font-size: smaller;
+  }
+
+
+
+  .login{
+      width: 80%;
+      display: block;
+      margin: auto;
+      border-radius: 10px;
+  }
+
+  .forgot{
+      float:right;
+      color:red;
+  }
+  .card{
+    height:50px;
+  }
+}
